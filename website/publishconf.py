@@ -10,7 +10,12 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://benoitdherin.github.io/data-analysis-template/'
+####################################################################
+# URL of the github repository website associated with the fork
+# of this repository  (Replace accordingly)
+####################################################################
+SITEURL = 'https://github.com/yuhanw/data-analysis-template.git'
+####################################################################
 
 RELATIVE_URLS = False
 

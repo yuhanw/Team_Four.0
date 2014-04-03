@@ -7,10 +7,10 @@ import os
 # AUTHORSHIP AND WEBSITE INFO (Replace accordingly)
 ###################################################
 
-AUTHOR = u'Benoit Dherin'
-SITENAME = u'Data Analysis Project'
-SITESUBTITLE = u'Template using the iPython notebook'
-
+AUTHOR = u'Yuhan Wang'
+SITENAME = u'Team Four.0'
+SITESUBTITLE = u'Stat 133 Final Project'
+GITHUB_REPOSITORY_URL= u'https://github.com/yuhanw/data-analysis-template.git'
 ###################################################
 # FINER WEBSITE CONF (Defaults should be okay)
 ###################################################
@@ -43,7 +43,7 @@ LINKS = (('Project Report', 'nb4'),
 
 
 # Social widget
-SOCIAL = (('View on Github', 'https://github.com/BenoitDherin/data-analysis-template'),)
+SOCIAL = (('View on Github', GITHUB_REPOSITORY_URL),)
 
 DEFAULT_PAGINATION = 10
 
