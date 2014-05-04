@@ -1719,17 +1719,17 @@ init_mathjax();
     <!-- Open Graph tags -->
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="Data Gathering"/>
-            <meta property="og:url" content="https://github.com/yuhanw/data-analysis-template.git/nb1.html"/>
-            <meta property="og:description" content="In this notebook, you'll create the directory structure for your project download the raw data for your project write functions and classes to transform raw data (e.g in XML, jason, etc.) into data frames explain what your are doing Team members responsible for this notebook: List the team ..."/>
+            <meta property="og:url" content="http://yuhanw.github.io/Team_Four.0/nb1.html"/>
+            <meta property="og:description" content="Team Four.0 Final Project¶ Part 1 Data Gathering¶ We used the data downloaded from..... In this notebook, you'll create the directory structure for your project download the raw data for your project write functions and classes to transform raw data (e.g in XML, jason, etc.) into data ..."/>
 
     <!-- Bootstrap -->
-        <link rel="stylesheet" href="https://github.com/yuhanw/data-analysis-template.git/theme/css/bootstrap.min.css" type="text/css"/>
-    <link href="https://github.com/yuhanw/data-analysis-template.git/theme/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://yuhanw.github.io/Team_Four.0/theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="http://yuhanw.github.io/Team_Four.0/theme/css/font-awesome.min.css" rel="stylesheet">
 
-    <link href="https://github.com/yuhanw/data-analysis-template.git/theme/css/pygments.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://github.com/yuhanw/data-analysis-template.git/theme/css/style.css" type="text/css"/>
+    <link href="http://yuhanw.github.io/Team_Four.0/theme/css/pygments.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://yuhanw.github.io/Team_Four.0/theme/css/style.css" type="text/css"/>
 
-        <link href="https://github.com/yuhanw/data-analysis-template.git/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+        <link href="http://yuhanw.github.io/Team_Four.0/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
               title="Team Four.0 ATOM Feed"/>
 
     
@@ -1766,7 +1766,7 @@ init_mathjax();
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="https://github.com/yuhanw/data-analysis-template.git/" class="navbar-brand">
+            <a href="http://yuhanw.github.io/Team_Four.0/" class="navbar-brand">
 Team Four.0            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -1777,7 +1777,7 @@ Team Four.0            </a>
                     <li><a href="nb1">Data Gathering</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="https://github.com/yuhanw/data-analysis-template.git/archives.html"><i class="fa fa-th-list"></i>Archives</a></li>
+                <li><a href="http://yuhanw.github.io/Team_Four.0/archives.html"><i class="fa fa-th-list"></i>Archives</a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -1792,7 +1792,7 @@ Team Four.0            </a>
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="https://github.com/yuhanw/data-analysis-template.git/nb1.html"
+                    <a href="http://yuhanw.github.io/Team_Four.0/nb1.html"
                        rel="bookmark"
                        title="Permalink to Data Gathering">
                         Data Gathering
@@ -1814,6 +1814,17 @@ Team Four.0            </a>
 </footer><!-- /.post-info -->                    </div>
                 </div>
                 <p>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Team-Four.0-Final-Project">Team Four.0 Final Project<a class="anchor-link" href="#Team-Four.0-Final-Project">&#182;</a></h1>
+</div>
+
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Part-1-Data-Gathering">Part 1 Data Gathering<a class="anchor-link" href="#Part-1-Data-Gathering">&#182;</a></h2>
+</div>
+
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We used the data downloaded from.....</p>
+</div>
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>In this notebook, you'll</p>
 <ul>
@@ -1867,15 +1878,35 @@ Team Four.0            </a>
 <p><strong>Remark 2:</strong> Try to make your notebook as readable and usable (by others) as possible.</p>
 </div>
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Example">Example<a class="anchor-link" href="#Example">&#182;</a></h2>
+<p>Name: Resposibilities:</p>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>First, the data of State Employment and Unemployment statistics from 2004 to 2013 is downloaded from the Bureau of Labor Statistics website. Their file formats are xls.</p>
+<p>Here are the URLs of the data sources:<br />http://www.bls.gov/lau/table14full04.xlsx<br />http://www.bls.gov/lau/table14full05.xlsx<br />http://www.bls.gov/lau/table14full06.xlsx<br />http://www.bls.gov/lau/table14full07.xlsx<br />http://www.bls.gov/lau/table14full08.xlsx<br />http://www.bls.gov/lau/table14full09.xlsx<br />http://www.bls.gov/lau/table14full10.xlsx<br />http://www.bls.gov/lau/table14full11.xlsx<br />http://www.bls.gov/lau/table14full12.xlsx<br />http://www.bls.gov/lau/ptable14full2013.xlsx</p>
+</div>
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[1]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight-ipynb"><pre class="ipynb"><span class="o">%</span><span class="k">load_ext</span> <span class="n">rmagic</span>
+</pre></div>
+
+</div>
 </div>
 
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Here is an example of how to package your code into scripts reusable in other notebook.</p>
-<p>You'll need to do something similar to that. You'll also need to write explanations as outlined above in markdown cells.</p>
 </div>
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="creating-the-directory-structure">Creating the directory structure</h3>
+<p>Create:</p>
+<ul>
+<li>a directory <code>'script'</code> to run the process of data gathering</li>
+<li>a directory <code>'data1'</code> to save our <strong>data</strong><br /></li>
+<li>a subdirectory <code>'raw'</code> to store our <strong>raw data</strong> collected from the web</li>
+<li>a subdirectory <code>'cleaned'</code> to store our <strong>cleaned data</strong></li>
+<li>a subdirectory <code>'simulated'</code> to store <strong>simulated data</strong></li>
+<li>a directory <code>'visulazations'</code> to store our <strong>plots</strong></li>
+</ul>
 </div>
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
@@ -1884,7 +1915,24 @@ In&nbsp;[2]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">bash</span>
-<span class="n">mkdir</span> <span class="o">../</span><span class="n">script</span> <span class="o">../</span><span class="n">data</span> <span class="o">../</span><span class="n">data</span><span class="o">/</span><span class="n">raw</span> <span class="o">../</span><span class="n">data</span><span class="o">/</span><span class="n">cleaned</span> <span class="o">../</span><span class="n">data</span><span class="o">/</span><span class="n">simulated</span> <span class="o">../</span><span class="n">visualizations</span>
+<span class="n">mkdir</span> <span class="o">../</span><span class="n">script</span> <span class="o">../</span><span class="n">data1</span> <span class="o">../</span><span class="n">data1</span><span class="o">/</span><span class="n">raw</span> <span class="o">../</span><span class="n">data1</span><span class="o">/</span><span class="n">cleaned</span> <span class="o">../</span><span class="n">data1</span><span class="o">/</span><span class="n">simulated</span> <span class="o">../</span><span class="n">visualizations</span>
+</pre></div>
+
+</div>
+</div>
+
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Check whehter these directories are created</p>
+</div>
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[3]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">bash</span>
+<span class="n">cd</span> <span class="o">..</span>
 <span class="n">ls</span> <span class="o">-</span><span class="n">r</span>
 </pre></div>
 
@@ -1898,23 +1946,13 @@ In&nbsp;[2]:
 <div class="hbox output_area"><div class="prompt"></div>
 <div class="box-flex1 output_subarea output_stream output_stdout">
 <pre>
+website
 visualizations
 script
 README.md
-NB4_project_report.ipynb
-NB3_data_analysis.ipynb
-NB2_data_cleaning.ipynb
-NB1_data_gathering.ipynb
-data
-
-</pre>
-</div>
-</div>
-
-<div class="hbox output_area"><div class="prompt"></div>
-<div class="box-flex1 output_subarea output_stream output_stderr">
-<pre>
-mkdir: cannot create directory ‘../data’: File exists
+notebooks
+LICENSE
+data1
 
 </pre>
 </div>
@@ -1923,13 +1961,6 @@ mkdir: cannot create directory ‘../data’: File exists
 </div>
 </div>
 
-</div>
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Downloading-and-displaying-raw-data">Downloading and displaying raw data<a class="anchor-link" href="#Downloading-and-displaying-raw-data">&#182;</a></h3>
-</div>
-
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>In this example, I am using R. You want to use Python instead.</p>
 </div>
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
@@ -1937,303 +1968,9 @@ mkdir: cannot create directory ‘../data’: File exists
 In&nbsp;[4]:
 </div>
 <div class="input_area box-flex1">
-<div class="highlight-ipynb"><pre class="ipynb"><span class="o">%</span><span class="k">load_ext</span> <span class="n">rmagic</span>
-</pre></div>
-
-</div>
-</div>
-
-</div>
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>TO DO:</strong> list sources, display data sample, explain data content, etc.</p>
-</div>
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>We now download an XML source containing plant data, and display an typical plant entry, represented as a XML node:</p>
-</div>
-<div class="cell border-box-sizing code_cell vbox">
-<div class="input hbox">
-<div class="prompt input_prompt">
-In&nbsp;[6]:
-</div>
-<div class="input_area box-flex1">
-<div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">R</span>
-<span class="n">library</span><span class="p">(</span><span class="n">XML</span><span class="p">)</span>
-<span class="n">plant_url</span>  <span class="o">=</span>  <span class="s">&#39;http://www.stat.berkeley.edu/classes/s133/data/plant_catalog.xml&#39;</span>
-<span class="n">plant_file</span> <span class="o">=</span> <span class="s">&#39;./data/raw/plant.xml&#39;</span>
-
-<span class="n">download</span><span class="o">.</span><span class="n">file</span><span class="p">(</span><span class="n">plant_url</span><span class="p">,</span> <span class="n">plant_file</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="s">&quot;curl&quot;</span><span class="p">)</span>
-
-<span class="n">xml_doc</span>   <span class="o">=</span> <span class="n">xmlParse</span><span class="p">(</span><span class="n">plant_file</span><span class="p">)</span>
-<span class="n">root_node</span> <span class="o">=</span> <span class="n">xmlRoot</span><span class="p">(</span><span class="n">xml_doc</span><span class="p">)</span>
-
-<span class="n">plant_nodes</span> <span class="o">=</span> <span class="n">xmlChildren</span><span class="p">(</span><span class="n">root_node</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">plant_nodes</span><span class="p">[[</span><span class="mi">1</span><span class="p">]])</span>
-</pre></div>
-
-</div>
-</div>
-
-<div class="vbox output_wrapper">
-<div class="output vbox">
-
-
-<div class="hbox output_area"><div class="prompt"></div>
-<div class="box-flex1 output_subarea output_display_data">
-
-
-<pre>
-
-Attaching package: ‘XML’
-
-The following object(s) are masked from ‘package:tools’:
-
-    toHTML
-
-&lt;PLANT&gt;
-  &lt;COMMON&gt;Bloodroot&lt;/COMMON&gt;
-  &lt;BOTANICAL&gt;Sanguinaria canadensis&lt;/BOTANICAL&gt;
-  &lt;ZONE&gt;4&lt;/ZONE&gt;
-  &lt;LIGHT&gt;Mostly Shady&lt;/LIGHT&gt;
-  &lt;PRICE&gt;$2.44&lt;/PRICE&gt;
-  &lt;AVAILABILITY&gt;031599&lt;/AVAILABILITY&gt;
-&lt;/PLANT&gt; 
-
-</pre>
-
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Loading-raw-data-into-data-frames">Loading raw data into data frames<a class="anchor-link" href="#Loading-raw-data-into-data-frames">&#182;</a></h3>
-</div>
-
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>The dataframe column labels are the tags of the XML nodes, contained in the plant XML nodes:</p>
-</div>
-<div class="cell border-box-sizing code_cell vbox">
-<div class="input hbox">
-<div class="prompt input_prompt">
-In&nbsp;[7]:
-</div>
-<div class="input_area box-flex1">
-<div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">R</span>
-<span class="n">column_names</span> <span class="o">=</span> <span class="n">names</span><span class="p">(</span><span class="n">plant_nodes</span><span class="p">[[</span><span class="mi">1</span><span class="p">]])</span>
-<span class="n">cat</span><span class="p">(</span><span class="n">column_names</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-
-<div class="vbox output_wrapper">
-<div class="output vbox">
-
-
-<div class="hbox output_area"><div class="prompt"></div>
-<div class="box-flex1 output_subarea output_display_data">
-
-
-<pre>
-COMMON BOTANICAL ZONE LIGHT PRICE AVAILABILITY
-</pre>
-
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Given a column name, we create a data frame column containing the column values:</p>
-</div>
-<div class="cell border-box-sizing code_cell vbox">
-<div class="input hbox">
-<div class="prompt input_prompt">
-In&nbsp;[11]:
-</div>
-<div class="input_area box-flex1">
-<div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">R</span>
-<span class="n">common_tag</span> <span class="o">=</span> <span class="n">column_names</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
-
-<span class="n">get_value</span> <span class="o">=</span> <span class="n">function</span><span class="p">(</span><span class="n">plant_node</span><span class="p">,</span> <span class="n">tag</span><span class="p">)</span> <span class="n">xmlValue</span><span class="p">(</span><span class="n">plant_node</span><span class="p">[[</span><span class="n">tag</span><span class="p">]])</span>
-    
-<span class="n">common_column</span> <span class="o">=</span> <span class="n">sapply</span><span class="p">(</span><span class="n">plant_nodes</span><span class="p">,</span> <span class="n">get_value</span><span class="p">,</span> <span class="n">common_tag</span><span class="p">)</span>
-    
-<span class="n">cat</span><span class="p">(</span><span class="n">common_column</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-
-<div class="vbox output_wrapper">
-<div class="output vbox">
-
-
-<div class="hbox output_area"><div class="prompt"></div>
-<div class="box-flex1 output_subarea output_display_data">
-
-
-<pre>
-Bloodroot Columbine Marsh Marigold Cowslip Dutchman&apos;s-Breeches Ginger, Wild Hepatica Liverleaf Jack-In-The-Pulpit Mayapple Phlox, Woodland Phlox, Blue Spring-Beauty Trillium Wake Robin Violet, Dog-Tooth Trout Lily Adder&apos;s-Tongue Anemone Grecian Windflower Bee Balm Bergamot Black-Eyed Susan Buttercup Crowfoot Butterfly Weed Cinquefoil Primrose Gentian Blue Gentian Jacob&apos;s Ladder Greek Valerian California Poppy Shooting Star Snakeroot Cardinal Flower
-</pre>
-
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>We package the code above into a function that creates the data frame column corresponding from a tag name and a list of plant nodes:</p>
-</div>
-<div class="cell border-box-sizing code_cell vbox">
-<div class="input hbox">
-<div class="prompt input_prompt">
-In&nbsp;[12]:
-</div>
-<div class="input_area box-flex1">
-<div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">R</span>
-<span class="n">get_column</span> <span class="o">=</span> <span class="n">function</span><span class="p">(</span><span class="n">tag</span><span class="p">,</span> <span class="n">plants</span><span class="p">)</span> <span class="n">sapply</span><span class="p">(</span><span class="n">plants</span><span class="p">,</span> <span class="n">get_value</span><span class="p">,</span> <span class="n">tag</span><span class="p">)</span>
-    
-<span class="n">cat</span><span class="p">((</span><span class="n">get_column</span><span class="p">(</span><span class="s">&#39;COMMON&#39;</span><span class="p">,</span> <span class="n">plant_nodes</span><span class="p">)))</span>
-</pre></div>
-
-</div>
-</div>
-
-<div class="vbox output_wrapper">
-<div class="output vbox">
-
-
-<div class="hbox output_area"><div class="prompt"></div>
-<div class="box-flex1 output_subarea output_display_data">
-
-
-<pre>
-Bloodroot Columbine Marsh Marigold Cowslip Dutchman&apos;s-Breeches Ginger, Wild Hepatica Liverleaf Jack-In-The-Pulpit Mayapple Phlox, Woodland Phlox, Blue Spring-Beauty Trillium Wake Robin Violet, Dog-Tooth Trout Lily Adder&apos;s-Tongue Anemone Grecian Windflower Bee Balm Bergamot Black-Eyed Susan Buttercup Crowfoot Butterfly Weed Cinquefoil Primrose Gentian Blue Gentian Jacob&apos;s Ladder Greek Valerian California Poppy Shooting Star Snakeroot Cardinal Flower
-</pre>
-
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>We are now ready to retrieve all the columns of our data frame into a list of vectors, which we will use to construct our data frame:</p>
-</div>
-<div class="cell border-box-sizing code_cell vbox">
-<div class="input hbox">
-<div class="prompt input_prompt">
-In&nbsp;[13]:
-</div>
-<div class="input_area box-flex1">
-<div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">R</span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">lapply</span><span class="p">(</span><span class="n">column_names</span><span class="p">,</span> <span class="n">get_column</span><span class="p">,</span> <span class="n">plant_nodes</span><span class="p">)</span>
-
-<span class="n">plant_df</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">frame</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">stringsAsFactors</span> <span class="o">=</span> <span class="n">FALSE</span><span class="p">)</span>
-
-<span class="k">print</span><span class="p">(</span><span class="n">head</span><span class="p">(</span><span class="n">plant_df</span><span class="p">))</span>
-</pre></div>
-
-</div>
-</div>
-
-<div class="vbox output_wrapper">
-<div class="output vbox">
-
-
-<div class="hbox output_area"><div class="prompt"></div>
-<div class="box-flex1 output_subarea output_display_data">
-
-
-<pre>
-               COMMON              BOTANICAL ZONE        LIGHT PRICE
-1           Bloodroot Sanguinaria canadensis    4 Mostly Shady $2.44
-2           Columbine   Aquilegia canadensis    3 Mostly Shady $9.37
-3      Marsh Marigold       Caltha palustris    4 Mostly Sunny $6.81
-4             Cowslip       Caltha palustris    4 Mostly Shady $9.90
-5 Dutchman&apos;s-Breeches    Dicentra cucullaria    3 Mostly Shady $6.44
-6        Ginger, Wild       Asarum canadense    3 Mostly Shady $9.03
-  AVAILABILITY
-1       031599
-2       030699
-3       051799
-4       030699
-5       012099
-6       041899
-
-</pre>
-
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Using the data frame we just created, we save the plant data into a csv file into the raw data directory:</p>
-</div>
-<div class="cell border-box-sizing code_cell vbox">
-<div class="input hbox">
-<div class="prompt input_prompt">
-In&nbsp;[14]:
-</div>
-<div class="input_area box-flex1">
-<div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">R</span>
-<span class="n">write</span><span class="o">.</span><span class="n">csv</span><span class="p">(</span><span class="n">plant_df</span><span class="p">,</span> <span class="s">&#39;./data/raw/plants_to_be_cleaned.csv&#39;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell vbox">
-<div class="input hbox">
-<div class="prompt input_prompt">
-In&nbsp;[]:
-</div>
-<div class="input_area box-flex1">
-<div class="highlight-ipynb"><pre class="ipynb"><span class="o">!</span>head ./data/raw/plants_to_be_cleaned.csv
-</pre></div>
-
-</div>
-</div>
-
-</div>
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Packaging-the-gathering-code-into-reusable-functions">Packaging the gathering code into reusable functions<a class="anchor-link" href="#Packaging-the-gathering-code-into-reusable-functions">&#182;</a></h3>
-</div>
-
-<div class="cell border-box-sizing code_cell vbox">
-<div class="input hbox">
-<div class="prompt input_prompt">
-In&nbsp;[15]:
-</div>
-<div class="input_area box-flex1">
-<div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">file</span> <span class="o">./</span><span class="n">script</span><span class="o">/</span><span class="n">plant_df</span><span class="o">-</span><span class="n">R</span>
-
-<span class="n">get_value</span>  <span class="o">=</span> <span class="n">function</span><span class="p">(</span><span class="n">plant_node</span><span class="p">,</span> <span class="n">tag</span><span class="p">)</span> <span class="n">xmlValue</span><span class="p">(</span><span class="n">plant_node</span><span class="p">[[</span><span class="n">tag</span><span class="p">]])</span>
-    
-<span class="n">get_column</span> <span class="o">=</span> <span class="n">function</span><span class="p">(</span><span class="n">tag</span><span class="p">,</span> <span class="n">plants</span><span class="p">)</span> <span class="n">sapply</span><span class="p">(</span><span class="n">plants</span><span class="p">,</span> <span class="n">get_value</span><span class="p">,</span> <span class="n">tag</span><span class="p">)</span>
-    
-<span class="n">create_df_from_plant_xml</span> <span class="o">=</span> <span class="n">function</span><span class="p">(</span><span class="n">plant_file</span><span class="p">){</span>
-    <span class="n">require</span><span class="p">(</span><span class="n">XML</span><span class="p">)</span>
-    <span class="n">xml_doc</span>      <span class="o">=</span> <span class="n">xmlParse</span><span class="p">(</span><span class="n">plant_file</span><span class="p">)</span>
-    <span class="n">root_node</span>    <span class="o">=</span> <span class="n">xmlRoot</span><span class="p">(</span><span class="n">xml_doc</span><span class="p">)</span>
-    <span class="n">plant_nodes</span>  <span class="o">=</span> <span class="n">xmlChildren</span><span class="p">(</span><span class="n">root_node</span><span class="p">)</span>
-    <span class="n">column_names</span> <span class="o">=</span> <span class="n">names</span><span class="p">(</span><span class="n">plant_nodes</span><span class="p">[[</span><span class="mi">1</span><span class="p">]])</span>
-
-    <span class="n">data</span>     <span class="o">=</span> <span class="n">lapply</span><span class="p">(</span><span class="n">column_names</span><span class="p">,</span> <span class="n">get_column</span><span class="p">,</span> <span class="n">plant_nodes</span><span class="p">)</span>
-    <span class="k">return</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">frame</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">stringsAsFactors</span> <span class="o">=</span> <span class="n">FALSE</span><span class="p">))</span>
-<span class="p">}</span>
+<div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">bash</span>
+<span class="n">cd</span> <span class="o">../</span><span class="n">data1</span>
+<span class="n">ls</span> <span class="o">-</span><span class="n">r</span>
 </pre></div>
 
 </div>
@@ -2246,7 +1983,9 @@ In&nbsp;[15]:
 <div class="hbox output_area"><div class="prompt"></div>
 <div class="box-flex1 output_subarea output_stream output_stdout">
 <pre>
-Writing ./script/plant_df-R
+simulated
+raw
+cleaned
 
 </pre>
 </div>
@@ -2257,18 +1996,149 @@ Writing ./script/plant_df-R
 
 </div>
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Now, our function converting a raw plant XML file into a R data frame can be used in other notebooks, using the <code>source</code> command:</p>
+<h3 id="Here-is-an-example-how-we-download-the-data-in-2004-from-the-website-and-save-them-in-subdirectory-&quot;raw&quot;load-data-in-2004.xls-file-into-dataFrame">Here is an example how we download the data in 2004 from the website and save them in subdirectory "raw"load data in 2004.xls file into dataFrame<a class="anchor-link" href="#Here-is-an-example-how-we-download-the-data-in-2004-from-the-website-and-save-them-in-subdirectory-&quot;raw&quot;load-data-in-2004.xls-file-into-dataFrame">&#182;</a></h3>
+</div>
+
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Download the data from the website</li>
+</ul>
 </div>
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[16]:
+In&nbsp;[5]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">R</span>
-<span class="n">source</span><span class="p">(</span><span class="s">&#39;./script/plant_df-R&#39;</span><span class="p">)</span>
+<span class="n">url</span><span class="o">=</span><span class="s">&quot;http://www.bls.gov/lau/table14full04.xlsx&quot;</span>
+<span class="nb">file</span><span class="o">=</span><span class="s">&#39;../data1/raw/2004.xlsx&#39;</span>
+<span class="n">download</span><span class="o">.</span><span class="n">file</span><span class="p">(</span><span class="n">url</span><span class="p">,</span><span class="n">destfile</span><span class="o">=</span><span class="nb">file</span><span class="p">,</span><span class="n">method</span><span class="o">=</span><span class="s">&#39;curl&#39;</span><span class="p">)</span>
+  
+</pre></div>
 
-<span class="k">print</span><span class="p">(</span><span class="n">head</span><span class="p">(</span><span class="n">create_df_from_plant_xml</span><span class="p">(</span><span class="n">plant_file</span><span class="p">)))</span>
+</div>
+</div>
+
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Check whether the file is successfully downolad to our raw directory</li>
+</ul>
+</div>
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[6]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">bash</span>
+<span class="n">ls</span> <span class="o">../</span><span class="n">data1</span><span class="o">/</span><span class="n">raw</span>
+</pre></div>
+
+</div>
+</div>
+
+<div class="vbox output_wrapper">
+<div class="output vbox">
+
+
+<div class="hbox output_area"><div class="prompt"></div>
+<div class="box-flex1 output_subarea output_stream output_stdout">
+<pre>
+2004.xlsx
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Load-raw-data-into-data-Fram">Load raw data into data Fram<a class="anchor-link" href="#Load-raw-data-into-data-Fram">&#182;</a></h4>
+</div>
+
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Download the pacakage &quot;gdata&quot; to read our excel files</li>
+</ul>
+</div>
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[7]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">bash</span>
+<span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">cran</span><span class="o">-</span><span class="n">gplots</span> <span class="o">-</span><span class="n">y</span>
+</pre></div>
+
+</div>
+</div>
+
+<div class="vbox output_wrapper">
+<div class="output vbox">
+
+
+<div class="hbox output_area"><div class="prompt"></div>
+<div class="box-flex1 output_subarea output_stream output_stdout">
+<pre>
+Reading package lists...
+Building dependency tree...
+Reading state information...
+r-cran-gplots is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[8]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight-ipynb"><pre class="ipynb"><span class="n">ls</span> <span class="o">-</span><span class="n">l</span> <span class="o">../</span><span class="n">data1</span><span class="o">/</span><span class="n">raw</span>
+</pre></div>
+
+</div>
+</div>
+
+<div class="vbox output_wrapper">
+<div class="output vbox">
+
+
+<div class="hbox output_area"><div class="prompt"></div>
+<div class="box-flex1 output_subarea output_stream output_stdout">
+<pre>
+total 224
+-rw-rw-r-- 1 oski oski 228193 May  2 15:11 2004.xlsx
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[9]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">R</span>
+<span class="n">library</span><span class="p">(</span><span class="n">gdata</span><span class="p">)</span>
+<span class="n">location</span><span class="o">=</span><span class="s">&quot;../data1/raw/2004.xlsx&quot;</span>
+<span class="n">A</span><span class="o">=</span><span class="n">read</span><span class="o">.</span><span class="n">xls</span><span class="p">(</span><span class="n">location</span><span class="p">)</span><span class="c"># translate these data into dataFrame and save it in the variable A</span>
 </pre></div>
 
 </div>
@@ -2283,20 +2153,20 @@ In&nbsp;[16]:
 
 
 <pre>
-               COMMON              BOTANICAL ZONE        LIGHT PRICE
-1           Bloodroot Sanguinaria canadensis    4 Mostly Shady $2.44
-2           Columbine   Aquilegia canadensis    3 Mostly Shady $9.37
-3      Marsh Marigold       Caltha palustris    4 Mostly Sunny $6.81
-4             Cowslip       Caltha palustris    4 Mostly Shady $9.90
-5 Dutchman&apos;s-Breeches    Dicentra cucullaria    3 Mostly Shady $6.44
-6        Ginger, Wild       Asarum canadense    3 Mostly Shady $9.03
-  AVAILABILITY
-1       031599
-2       030699
-3       051799
-4       030699
-5       012099
-6       041899
+gdata: read.xls support for &apos;XLS&apos; (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for &apos;XLSX&apos; (Excel 2007+) files ENABLED.
+
+Attaching package: ‘gdata’
+
+The following object is masked from ‘package:stats’:
+
+    nobs
+
+The following object is masked from ‘package:utils’:
+
+    object.size
+
 
 </pre>
 
@@ -2307,14 +2177,391 @@ In&nbsp;[16]:
 </div>
 
 </div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Number of <strong>rows</strong>, number of <strong>columns</strong>, <strong>variable names</strong> in the data frame</li>
+</ul>
+</div>
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[]:
+In&nbsp;[10]:
 </div>
 <div class="input_area box-flex1">
-<div class="highlight-ipynb"><pre class="ipynb">
+<div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">R</span>
+<span class="k">print</span><span class="p">(</span><span class="n">nrow</span><span class="p">(</span><span class="n">A</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">ncol</span><span class="p">(</span><span class="n">A</span><span class="p">))</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">names</span><span class="p">(</span><span class="n">A</span><span class="p">))</span>
 </pre></div>
+
+</div>
+</div>
+
+<div class="vbox output_wrapper">
+<div class="output vbox">
+
+
+<div class="hbox output_area"><div class="prompt"></div>
+<div class="box-flex1 output_subarea output_display_data">
+
+
+<pre>
+[1] 2430
+[1] 14
+ [1] &quot;States...Employment.status.of.the.civilian.noninstitutional.population.by.sex..race..Hispanic.or.Latino.ethnicity..marital.status..and.detailed.age..2004.annual.averages&quot;
+ [2] &quot;X&quot;                                                                                                                                                                        
+ [3] &quot;X.1&quot;                                                                                                                                                                      
+ [4] &quot;X.2&quot;                                                                                                                                                                      
+ [5] &quot;X.3&quot;                                                                                                                                                                      
+ [6] &quot;X.4&quot;                                                                                                                                                                      
+ [7] &quot;X.5&quot;                                                                                                                                                                      
+ [8] &quot;X.6&quot;                                                                                                                                                                      
+ [9] &quot;X.7&quot;                                                                                                                                                                      
+[10] &quot;X.8&quot;                                                                                                                                                                      
+[11] &quot;X.9&quot;                                                                                                                                                                      
+[12] &quot;X.10&quot;                                                                                                                                                                     
+[13] &quot;X.11&quot;                                                                                                                                                                     
+[14] &quot;X.12&quot;                                                                                                                                                                     
+
+</pre>
+
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Drop the unnecessary columns</li>
+</ul>
+</div>
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[11]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">R</span>
+<span class="n">A</span><span class="o">=</span><span class="n">A</span><span class="p">[</span> <span class="p">,</span><span class="n">c</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">12</span><span class="p">:</span><span class="o">-</span><span class="mi">14</span><span class="p">)]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">names</span><span class="p">(</span><span class="n">A</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+
+<div class="vbox output_wrapper">
+<div class="output vbox">
+
+
+<div class="hbox output_area"><div class="prompt"></div>
+<div class="box-flex1 output_subarea output_display_data">
+
+
+<pre>
+ [1] &quot;X&quot;   &quot;X.1&quot; &quot;X.2&quot; &quot;X.3&quot; &quot;X.4&quot; &quot;X.5&quot; &quot;X.6&quot; &quot;X.7&quot; &quot;X.8&quot; &quot;X.9&quot;
+
+</pre>
+
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Rename every variable: <strong>Group Code</strong>,<strong>State</strong>,<strong>Group</strong>,<strong>Population</strong>,<strong>Total number of labor</strong>,<strong>Percentage of labor</strong>, <strong>Totoal number of employment</strong>,<strong>Employment rate</strong>,<strong>Total number of unemloyment</strong>,<strong>Unemployment rate</strong></li>
+</ul>
+</div>
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[12]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">R</span>
+<span class="n">names</span><span class="p">(</span><span class="n">A</span><span class="p">)</span><span class="o">=</span><span class="n">c</span><span class="p">(</span><span class="s">&quot;grp_code&quot;</span><span class="p">,</span><span class="s">&quot;state&quot;</span><span class="p">,</span><span class="s">&quot;group&quot;</span><span class="p">,</span><span class="s">&quot;pop&quot;</span><span class="p">,</span><span class="s">&quot;ttl_labor&quot;</span><span class="p">,</span><span class="s">&quot;per_labor&quot;</span><span class="p">,</span><span class="s">&quot;ttl_emp&quot;</span><span class="p">,</span><span class="s">&quot;emp_rate&quot;</span><span class="p">,</span><span class="s">&quot;ttl_unemp&quot;</span><span class="p">,</span><span class="s">&quot;unemp_rate&quot;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">names</span><span class="p">(</span><span class="n">A</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+
+<div class="vbox output_wrapper">
+<div class="output vbox">
+
+
+<div class="hbox output_area"><div class="prompt"></div>
+<div class="box-flex1 output_subarea output_display_data">
+
+
+<pre>
+ [1] &quot;grp_code&quot;   &quot;state&quot;      &quot;group&quot;      &quot;pop&quot;        &quot;ttl_labor&quot; 
+ [6] &quot;per_labor&quot;  &quot;ttl_emp&quot;    &quot;emp_rate&quot;   &quot;ttl_unemp&quot;  &quot;unemp_rate&quot;
+
+</pre>
+
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Drop the unnecessary rows</li>
+</ul>
+</div>
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[13]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">R</span>
+<span class="n">A</span><span class="o">=</span><span class="n">A</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="p">]</span>
+<span class="n">row</span><span class="o">.</span><span class="n">names</span><span class="p">(</span><span class="n">A</span><span class="p">)</span><span class="o">=</span><span class="mi">1</span><span class="p">:</span><span class="n">nrow</span><span class="p">(</span><span class="n">A</span><span class="p">)</span> <span class="c">#number each row</span>
+</pre></div>
+
+</div>
+</div>
+
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Use the data frame we just created, we save the A data into a csv file into the raw data directory:</li>
+</ul>
+</div>
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[14]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">R</span>
+<span class="n">write</span><span class="o">.</span><span class="n">csv</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="s">&#39;../data1/raw/2004_to_be_cleaned.csv&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Check whether this file is successfully created</li>
+</ul>
+</div>
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[15]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">bash</span>
+<span class="n">cd</span> <span class="o">../</span><span class="n">data1</span><span class="o">/</span><span class="n">raw</span>
+<span class="n">ls</span>
+</pre></div>
+
+</div>
+</div>
+
+<div class="vbox output_wrapper">
+<div class="output vbox">
+
+
+<div class="hbox output_area"><div class="prompt"></div>
+<div class="box-flex1 output_subarea output_stream output_stdout">
+<pre>
+2004_to_be_cleaned.csv
+2004.xlsx
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Package-the-gathering-code-into-reusable-functions">Package the gathering code into reusable functions<a class="anchor-link" href="#Package-the-gathering-code-into-reusable-functions">&#182;</a></h2>
+</div>
+
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[16]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">file</span> <span class="o">../</span><span class="n">script</span><span class="o">/</span><span class="n">dataframe</span><span class="o">-</span><span class="n">R</span>
+<span class="n">creat_dataframe</span><span class="o">=</span><span class="n">function</span><span class="p">(</span><span class="n">year</span><span class="p">){</span><span class="n">library</span><span class="p">(</span><span class="n">gdata</span><span class="p">)</span>
+<span class="n">a</span><span class="o">=</span><span class="n">year</span>
+<span class="k">if</span><span class="p">((</span><span class="n">year</span><span class="o">-</span><span class="mi">2000</span><span class="p">)</span><span class="o">&lt;</span><span class="mi">13</span><span class="p">){</span>
+<span class="n">year</span><span class="o">=</span><span class="n">substr</span><span class="p">(</span><span class="k">as</span><span class="o">.</span><span class="n">character</span><span class="p">(</span><span class="n">year</span><span class="p">),</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
+<span class="n">url</span><span class="o">=</span><span class="n">paste</span><span class="p">(</span><span class="s">&#39;http://www.bls.gov/lau/table14full&#39;</span><span class="p">,</span><span class="n">year</span><span class="p">,</span><span class="s">&#39;.xlsx&#39;</span><span class="p">,</span><span class="n">sep</span><span class="o">=</span><span class="s">&#39;&#39;</span><span class="p">)</span>
+<span class="p">}</span>
+<span class="k">else</span><span class="p">{</span><span class="n">url</span><span class="o">=</span><span class="s">&quot;http://www.bls.gov/lau/ptable14full2013.xlsx&quot;</span><span class="p">}</span>
+
+<span class="nb">file</span><span class="o">=</span><span class="n">paste</span><span class="p">(</span><span class="s">&#39;../data1/raw/&#39;</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="s">&#39;.xlsx&#39;</span><span class="p">,</span><span class="n">sep</span><span class="o">=</span><span class="s">&#39;&#39;</span><span class="p">)</span>
+<span class="n">download</span><span class="o">.</span><span class="n">file</span><span class="p">(</span><span class="n">url</span><span class="p">,</span><span class="n">destfile</span><span class="o">=</span><span class="nb">file</span><span class="p">,</span><span class="n">method</span><span class="o">=</span><span class="s">&#39;curl&#39;</span><span class="p">)</span>
+<span class="n">filename</span><span class="o">=</span><span class="n">paste</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="s">&#39;.xlsx&#39;</span><span class="p">,</span><span class="n">sep</span><span class="o">=</span><span class="s">&#39;&#39;</span><span class="p">)</span>
+<span class="n">A</span><span class="o">=</span><span class="n">read</span><span class="o">.</span><span class="n">xls</span><span class="p">(</span><span class="n">paste</span><span class="p">(</span><span class="s">&quot;../data1/raw/&quot;</span><span class="p">,</span><span class="n">filename</span><span class="p">,</span><span class="n">sep</span><span class="o">=</span><span class="s">&#39;&#39;</span><span class="p">))</span>
+<span class="n">A</span><span class="o">=</span><span class="n">A</span><span class="p">[</span> <span class="p">,</span><span class="n">c</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">12</span><span class="p">:</span><span class="o">-</span><span class="mi">14</span><span class="p">)]</span>
+<span class="n">names</span><span class="p">(</span><span class="n">A</span><span class="p">)</span><span class="o">=</span><span class="n">c</span><span class="p">(</span><span class="s">&quot;grp_code&quot;</span><span class="p">,</span><span class="s">&quot;state&quot;</span><span class="p">,</span><span class="s">&quot;group&quot;</span><span class="p">,</span><span class="s">&quot;pop&quot;</span><span class="p">,</span><span class="s">&quot;ttl_labor&quot;</span><span class="p">,</span><span class="s">&quot;per_labor&quot;</span><span class="p">,</span><span class="s">&quot;ttl_emp&quot;</span><span class="p">,</span><span class="s">&quot;emp_rate&quot;</span><span class="p">,</span><span class="s">&quot;ttl_unemp&quot;</span><span class="p">,</span><span class="s">&quot;unemp_rate&quot;</span><span class="p">)</span>
+<span class="n">A</span><span class="o">=</span><span class="n">A</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="p">]</span> 
+<span class="n">row</span><span class="o">.</span><span class="n">names</span><span class="p">(</span><span class="n">A</span><span class="p">)</span><span class="o">=</span><span class="mi">1</span><span class="p">:</span><span class="n">nrow</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+<span class="k">return</span><span class="p">(</span><span class="n">A</span><span class="p">)}</span>
+</pre></div>
+
+</div>
+</div>
+
+<div class="vbox output_wrapper">
+<div class="output vbox">
+
+
+<div class="hbox output_area"><div class="prompt"></div>
+<div class="box-flex1 output_subarea output_stream output_stdout">
+<pre>
+Writing ../script/dataframe-R
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Now, our function dowloading and converting a raw plant XLS file into a R data frame can be used in other notebooks, using the source command:</li>
+</ul>
+</div>
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[17]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">R</span>
+<span class="n">source</span><span class="p">(</span><span class="s">&#39;../script/dataframe-R&#39;</span><span class="p">)</span><span class="c"># open the function script</span>
+<span class="n">A</span><span class="o">=</span><span class="n">creat_dataframe</span><span class="p">(</span><span class="mi">2005</span><span class="p">)</span><span class="c">#create a dataframe for year 2005</span>
+<span class="k">print</span><span class="p">(</span><span class="n">head</span><span class="p">(</span><span class="n">A</span><span class="p">))</span>
+<span class="n">write</span><span class="o">.</span><span class="n">csv</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="s">&#39;../data1/raw/2005_to_be_cleaned.csv&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+
+<div class="vbox output_wrapper">
+<div class="output vbox">
+
+
+<div class="hbox output_area"><div class="prompt"></div>
+<div class="box-flex1 output_subarea output_display_data">
+
+
+<pre>
+  grp_code   state        group  pop ttl_labor          per_labor ttl_emp
+1       01 Alabama        Total 3521      2179 61.899999999999999    2086
+2       02 Alabama          Men 1672      1172 70.099999999999994    1127
+3       03 Alabama        Women 1850      1007 54.500000000000000     960
+4       04 Alabama        White 2554      1612 63.100000000000001    1563
+5       05 Alabama   White, men 1243       902 72.599999999999994     878
+6       06 Alabama White, women 1311       710 54.200000000000003     684
+            emp_rate ttl_unemp        unemp_rate
+1 59.200000000000003        92 4.200000000000000
+2 67.400000000000006        45 3.800000000000000
+3 51.899999999999999        48 4.700000000000000
+4 61.200000000000003        50 3.100000000000000
+5 70.700000000000003        24 2.600000000000000
+6 52.200000000000003        26 3.700000000000000
+
+</pre>
+
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Use-the-script-file-to-load-other-xls-files-into-dataframe-and-save-them-as-csv-files">Use the script file to load other xls files into dataframe and save them as csv files<a class="anchor-link" href="#Use-the-script-file-to-load-other-xls-files-into-dataframe-and-save-them-as-csv-files">&#182;</a></h4>
+</div>
+
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[18]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">R</span>
+<span class="n">source</span><span class="p">(</span><span class="s">&#39;../script/dataframe-R&#39;</span><span class="p">)</span>
+<span class="k">for</span><span class="p">(</span><span class="n">i</span> <span class="ow">in</span> <span class="mi">2006</span><span class="p">:</span><span class="mi">2013</span><span class="p">){</span>
+<span class="n">A</span><span class="o">=</span><span class="n">creat_dataframe</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+<span class="n">write</span><span class="o">.</span><span class="n">csv</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">paste</span><span class="p">(</span><span class="s">&#39;../data1/raw/&#39;</span><span class="p">,</span><span class="n">i</span><span class="p">,</span><span class="s">&#39;_to_be_cleaned.csv&#39;</span><span class="p">,</span><span class="n">sep</span><span class="o">=</span><span class="s">&quot;&quot;</span><span class="p">))}</span>
+    
+</pre></div>
+
+</div>
+</div>
+
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Check whether there cvs files are successfully created</p>
+</div>
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[19]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">bash</span>
+<span class="n">cd</span> <span class="o">../</span><span class="n">data1</span><span class="o">/</span><span class="n">raw</span>
+<span class="n">ls</span>
+</pre></div>
+
+</div>
+</div>
+
+<div class="vbox output_wrapper">
+<div class="output vbox">
+
+
+<div class="hbox output_area"><div class="prompt"></div>
+<div class="box-flex1 output_subarea output_stream output_stdout">
+<pre>
+2004_to_be_cleaned.csv
+2004.xlsx
+2005_to_be_cleaned.csv
+2005.xlsx
+2006_to_be_cleaned.csv
+2006.xlsx
+2007_to_be_cleaned.csv
+2007.xlsx
+2008_to_be_cleaned.csv
+2008.xlsx
+2009_to_be_cleaned.csv
+2009.xlsx
+2010_to_be_cleaned.csv
+2010.xlsx
+2011_to_be_cleaned.csv
+2011.xlsx
+2012_to_be_cleaned.csv
+2012.xlsx
+2013_to_be_cleaned.csv
+2013.xlsx
+
+</pre>
+</div>
+</div>
 
 </div>
 </div>
@@ -2332,7 +2579,7 @@ In&nbsp;[]:
     <section>
         <ul class="list-group list-group-flush">
                 <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i>Social</h4></li>
-                    <li class="list-group-item"><a href="https://github.com/yuhanw/data-analysis-template.git"><i
+                    <li class="list-group-item"><a href="https://github.com/yuhanw/Team_Four.0"><i
                             class="fa fa-view on github-square fa-lg"></i>View on Github
                     </a></li>
 
@@ -2385,10 +2632,10 @@ In&nbsp;[]:
 <script src="http://code.jquery.com/jquery.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="https://github.com/yuhanw/data-analysis-template.git/theme/js/bootstrap.min.js"></script>
+<script src="http://yuhanw.github.io/Team_Four.0/theme/js/bootstrap.min.js"></script>
 
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-<script src="https://github.com/yuhanw/data-analysis-template.git/theme/js/respond.min.js"></script>
+<script src="http://yuhanw.github.io/Team_Four.0/theme/js/respond.min.js"></script>
 
 </body>
 </html>
