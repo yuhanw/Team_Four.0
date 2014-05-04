@@ -10,7 +10,7 @@ import os
 AUTHOR = u'Yuhan Wang'
 SITENAME = u'Team Four.0'
 SITESUBTITLE = u'Stat 133 Final Project'
-GITHUB_REPOSITORY_URL= u'https://github.com/yuhanw/data-analysis-template.git'
+GITHUB_REPOSITORY_URL= u'https://github.com/yuhanw/Team_Four.0'
 ###################################################
 # FINER WEBSITE CONF (Defaults should be okay)
 ###################################################

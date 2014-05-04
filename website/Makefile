@@ -1,7 +1,7 @@
 ##################################################################################
 # Replace below with the corresponding info for your fork of the github repository 
 ##################################################################################
-GITHUB_REPOSITORY=https://github.com/yuhanw/data-analysis-template.git
+GITHUB_REPOSITORY=https://github.com/yuhanw/Team_Four.0.git
 ##################################################################################
 
 
