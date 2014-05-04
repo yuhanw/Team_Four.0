@@ -1,0 +1,103 @@
+"","grp_code","state","group","emp_rate","unemp_rate"
+"2",2,"Alabama","Men",59.2,7
+"3",3,"Alabama","Women",49.3,6.8
+"34",2,"Alaska","Men",66.7,7.7
+"35",3,"Alaska","Women",59.6,5.3
+"60",2,"Arizona","Men",60.4,8.2
+"61",3,"Arizona","Women",49,7.8
+"93",2,"Arkansas","Men",58.7,7.9
+"94",3,"Arkansas","Women",47.6,7.8
+"125",2,"California","Men",64,9.1
+"126",3,"California","Women",50.8,8.6
+"158",2,"Colorado","Men",69.3,6.9
+"159",3,"Colorado","Women",58,6.2
+"191",2,"Connecticut","Men",64.4,8.1
+"192",3,"Connecticut","Women",55.7,7.2
+"224",2,"Delaware","Men",61.3,6.9
+"225",3,"Delaware","Women",51.5,7.1
+"257",2,"District of Columbia","Men",67.4,8.7
+"258",3,"District of Columbia","Women",60.3,8.5
+"290",2,"Florida","Men",61.3,7.5
+"291",3,"Florida","Women",51,6.7
+"323",2,"Georgia","Men",65.3,7.3
+"324",3,"Georgia","Women",50.7,9.3
+"356",2,"Hawaii","Men",62.5,5.5
+"357",3,"Hawaii","Women",52.5,4.1
+"387",2,"Idaho","Men",67,5.9
+"388",3,"Idaho","Women",52.9,7.3
+"417",2,"Illinois","Men",64.4,9.8
+"418",3,"Illinois","Women",54.9,8.2
+"450",2,"Indiana","Men",64.2,7.4
+"451",3,"Indiana","Women",52.5,7.9
+"483",2,"Iowa","Men",70.6,5
+"484",3,"Iowa","Women",62.7,4.3
+"516",2,"Kansas","Men",68.8,5.7
+"517",3,"Kansas","Women",59.9,5.4
+"549",2,"Kentucky","Men",60.7,8.7
+"550",3,"Kentucky","Women",51.4,7.4
+"582",2,"Louisiana","Men",61.8,7.3
+"583",3,"Louisiana","Women",49.4,6.7
+"614",2,"Maine","Men",64.2,7.2
+"615",3,"Maine","Women",58,6.2
+"643",2,"Maryland","Men",67.3,7.1
+"644",3,"Maryland","Women",58.9,6.2
+"676",2,"Massachusetts","Men",64.1,7.7
+"677",3,"Massachusetts","Women",56.5,6.3
+"709",2,"Michigan","Men",60.7,8.7
+"710",3,"Michigan","Women",50.2,8.5
+"742",2,"Minnesota","Men",70.9,5.3
+"743",3,"Minnesota","Women",62.6,4.5
+"775",2,"Mississippi","Men",56.2,8.9
+"776",3,"Mississippi","Women",46,8.6
+"806",2,"Missouri","Men",65.9,6.4
+"807",3,"Missouri","Women",54.6,6.7
+"839",2,"Montana","Men",63.9,6.2
+"840",3,"Montana","Women",57,4.7
+"866",2,"Nebraska","Men",75.5,4
+"867",3,"Nebraska","Women",63.5,4.1
+"899",2,"Nevada","Men",63.5,9.9
+"900",3,"Nevada","Women",52,9.6
+"932",2,"New Hampshire","Men",70.1,5.7
+"933",3,"New Hampshire","Women",61.4,4.8
+"963",2,"New Jersey","Men",64.9,8.7
+"964",3,"New Jersey","Women",54.1,7.5
+"996",2,"New Mexico","Men",59.4,7.6
+"997",3,"New Mexico","Women",47.8,6.7
+"1027",2,"New York","Men",61.9,8.2
+"1028",3,"New York","Women",52.5,7
+"1060",2,"North Carolina","Men",62.7,8.1
+"1061",3,"North Carolina","Women",51.4,7.7
+"1093",2,"North Dakota","Men",75.3,3.3
+"1094",3,"North Dakota","Women",66.2,2.3
+"1119",2,"Ohio","Men",62.3,8.3
+"1120",3,"Ohio","Women",54.3,6.8
+"1152",2,"Oklahoma","Men",67.1,5.6
+"1153",3,"Oklahoma","Women",50.8,5.5
+"1184",2,"Oregon","Men",60.4,8.4
+"1185",3,"Oregon","Women",51.5,7.3
+"1215",2,"Pennsylvania","Men",64,8.1
+"1216",3,"Pennsylvania","Women",53.7,6.9
+"1248",2,"Rhode Island","Men",64,9.8
+"1249",3,"Rhode Island","Women",55,8.6
+"1281",2,"South Carolina","Men",60,7.5
+"1282",3,"South Carolina","Women",49.6,7.7
+"1314",2,"South Dakota","Men",71.3,3.9
+"1315",3,"South Dakota","Women",62.9,3.4
+"1343",2,"Tennessee","Men",62.7,8.3
+"1344",3,"Tennessee","Women",49.1,7.7
+"1376",2,"Texas","Men",69.7,6.1
+"1377",3,"Texas","Women",53.2,6.5
+"1409",2,"Utah","Men",75.1,4.4
+"1410",3,"Utah","Women",56.9,4.4
+"1439",2,"Vermont","Men",68.5,4.6
+"1440",3,"Vermont","Women",62.3,4
+"1466",2,"Virginia","Men",68.3,5.6
+"1467",3,"Virginia","Women",57.2,5.7
+"1499",2,"Washington","Men",64.5,7.4
+"1500",3,"Washington","Women",54.1,6.4
+"1532",2,"West Virginia","Men",55,7.8
+"1533",3,"West Virginia","Women",45.9,5.1
+"1562",2,"Wisconsin","Men",67.7,7.7
+"1563",3,"Wisconsin","Women",60.3,5.7
+"1595",2,"Wyoming","Men",71.8,4.5
+"1596",3,"Wyoming","Women",58.1,4.8

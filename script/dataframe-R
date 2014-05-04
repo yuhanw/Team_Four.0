@@ -1,0 +1,17 @@
+creat_dataframe=function(year){library(gdata)
+a=year
+if((year-2000)<13){
+year=substr(as.character(year),3,4)
+url=paste('http://www.bls.gov/lau/table14full',year,'.xlsx',sep='')
+}
+else{url="http://www.bls.gov/lau/ptable14full2013.xlsx"}
+
+file=paste('../data1/raw/',a,'.xlsx',sep='')
+download.file(url,destfile=file,method='curl')
+filename=paste(a,'.xlsx',sep='')
+A=read.xls(paste("../data1/raw/",filename,sep=''))
+A=A[ ,c(-1,-12:-14)]
+names(A)=c("grp_code","state","group","pop","ttl_labor","per_labor","ttl_emp","emp_rate","ttl_unemp","unemp_rate")
+A=A[-1:-5, ] 
+row.names(A)=1:nrow(A)
+return(A)}
