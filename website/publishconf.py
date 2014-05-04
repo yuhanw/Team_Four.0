@@ -14,7 +14,7 @@ from pelicanconf import *
 # URL of the github repository website associated with the fork
 # of this repository  (Replace accordingly)
 ####################################################################
-SITEURL = 'https://github.com/yuhanw/Team_Four.0.git'
+SITEURL = 'https://yuhanw.github.io/Team_Four.0'
 ####################################################################
 
 RELATIVE_URLS = False
