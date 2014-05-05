@@ -1792,9 +1792,18 @@ Team Four.0            </a>
                 <h2><a href="http://yuhanw.github.io/Team_Four.0/nb4.html">Project Report</a></h2>
                 <div class="summary"><p>
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>In this notebook, you'll sumarize your finding for the class presentation.</p>
-<p>The class presentation will use this notebook in slide mode, as I do during lecture time.</p>
-<p>You'll need to download the following <a href="https://github.com/fperez/nb-slideshow-template/archive/master.zip">zip file</a>, unzip it, and run the following notebook <code>install-support.ipynb</code> to install the slide ...</p></div></p>
+<h2 id="team-members-responsible-for-this-notebook">Team members responsible for this notebook:</h2>
+<p><strong>Yiwen Wei</strong>: write analysis results and conclusions.</p>
+<p><strong>Yijia Mao</strong> : save images and put them in the notebook.</p>
+<p><strong>Minghong Zheng</strong>: make PDF files.</p>
+<p><strong>Yuhan Wang</strong>: write results for t-tests, make slides, publish website.</p>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Project-Objective">Project Objective<a class="anchor-link" href="#Project-Objective">&#182;</a></h1>
+</div>
+
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Our topic for the final project is to explore whether ...</strong></p></div></p>
                     <a class="btn btn-default btn-xs" href="http://yuhanw.github.io/Team_Four.0/nb4.html">more ...</a>
                 </div>
             </article>
@@ -1803,9 +1812,11 @@ Team Four.0            </a>
                 <h2><a href="http://yuhanw.github.io/Team_Four.0/nb3.html">Data Analysis</a></h2>
                 <div class="summary"><p>
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>In this notebook, you'll perform the actual analysis of the data stored in the directory</p>
-<pre><code>./data/cleaned</code></pre>
-<p>If the data is not ready yet (e.g. the other members of the team in charge of cleaning the data are not done yet), you may want to simulate cleaned data ...</p></div></p>
+<h2 id="team-members-responsible-for-this-notebook">Team members responsible for this notebook:</h2>
+<p><strong>Yijia Mao</strong>: make boxplots, make ggplots for age groups and race groups, write explanations, and compare California employment rates with average employment rates.</p>
+<p><strong>Minghong Zheng</strong>: make employment rate difference maps, write explanations</p>
+<p><strong>Yuhan Wang</strong>: run t-tests, run regressions and make predicts, write explanations</p>
+<p><strong>Yiwen ...</strong></p></div></p>
                     <a class="btn btn-default btn-xs" href="http://yuhanw.github.io/Team_Four.0/nb3.html">more ...</a>
                 </div>
             </article>
@@ -1814,11 +1825,12 @@ Team Four.0            </a>
                 <h2><a href="http://yuhanw.github.io/Team_Four.0/nb2.html">Data Cleaning</a></h2>
                 <div class="summary"><p>
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="data-cleaning">Data Cleaning</h1>
+<h1 id="part-2-data-cleaning">Part 2: Data Cleaning</h1>
 </div>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="team-members-responsible-for-this-notebook">Team members responsible for this notebook:</h3>
-<p>Yuhan Wang</p>
+<p><strong>Yuhan Wang</strong>: clean data and save them, make dataframes for each group, make boxplots to see the data summary, make trend graphs for California, write explanation.</p>
+<p><strong>Minghong Zheng</strong>, <strong>Yiwen Wei</strong>, <strong>Yijia Mao</strong>: proofread codes.</p>
 </div>
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
@@ -1834,46 +1846,7 @@ In&nbsp;[1]:
 
 </div>
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Import &quot;Image&quot; to show the graphs.</p>
-<p>Set working directory to ../visualizations, so that we can save our graphs there.</p>
-</div>
-<div class="cell border-box-sizing code_cell vbox">
-<div class="input hbox">
-<div class="prompt input_prompt">
-In&nbsp;[2]:
-</div>
-<div class="input_area box-flex1">
-<div class="highlight-ipynb"><pre class="ipynb"><span class="kn">from</span> <span class="nn">IPython.core.display</span> <span class="kn">import</span> <span class="n">Image</span>
-</pre></div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell vbox">
-<div class="input hbox">
-<div class="prompt input_prompt">
-In&nbsp;[3]:
-</div>
-<div class="input_area box-flex1">
-<div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">R</span>
-<span class="k">print</span><span class="p">(</span><span class="n">getwd</span><span class="p">())</span>
-<span class="n">setwd</span><span class="p">(</span><span class="s">&#39;../visualizations&#39;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-
-<div class="vbox output_wrapper">
-<div class="output vbox">
-
-
-<div class="hbox output_area"><div class="prompt"></div>
-<div class="box-flex1 output_subarea output_display_data">
-
-
-<pre>
-[1] &quot;/home ...</pre></div></div></div></div></div></p>
+<h3 id="Import-&quot;Image&quot;-to-show-the-graphs.-Set-working-directory-to-../visualizations-to-save-our-graphs">Import "Image ...</h3></div></p>
                     <a class="btn btn-default btn-xs" href="http://yuhanw.github.io/Team_Four.0/nb2.html">more ...</a>
                 </div>
             </article>
@@ -1890,14 +1863,16 @@ In&nbsp;[3]:
 </div>
 
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>We used the data downloaded from.....</p>
+<h2 id="team-members-responsible-for-this-notebook">Team members responsible for this notebook:</h2>
+<p><strong>Minghong Zheng</strong>: collect raw data from website, write functions and scripts to transform raw data into data frames, write explanations.</p>
+<p><strong>Yuhan Wang</strong>, <strong>Yijia Mao</strong>, <strong>Yiwen Wei</strong> : proofread codes.</p>
 </div>
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>In this notebook, you'll</p>
-<ul>
-<li>create the directory structure for your project</li>
-<li>download the raw data for your project</li>
-<li><strong>write functions and classes to transform raw data (e.g in XML, jason, etc.) into data ...</strong></li></ul></div></p>
+<h3 id="Data-Resources:">Data Resources:<a class="anchor-link" href="#Data-Resources:">&#182;</a></h3>
+</div>
+
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>First, the data of State ...</p></div></p>
                     <a class="btn btn-default btn-xs" href="http://yuhanw.github.io/Team_Four.0/nb1.html">more ...</a>
                 </div>
             </article>

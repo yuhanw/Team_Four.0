@@ -1720,7 +1720,7 @@ init_mathjax();
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="Data Gathering"/>
             <meta property="og:url" content="http://yuhanw.github.io/Team_Four.0/nb1.html"/>
-            <meta property="og:description" content="Team Four.0 Final Project¶ Part 1 Data Gathering¶ We used the data downloaded from..... In this notebook, you'll create the directory structure for your project download the raw data for your project write functions and classes to transform raw data (e.g in XML, jason, etc.) into data ..."/>
+            <meta property="og:description" content="Team Four.0 Final Project¶ Part 1 Data Gathering¶ Team members responsible for this notebook: Minghong Zheng: collect raw data from website, write functions and scripts to transform raw data into data frames, write explanations. Yuhan Wang, Yijia Mao, Yiwen Wei : proofread codes. Data Resources:¶ First, the data of State ..."/>
 
     <!-- Bootstrap -->
         <link rel="stylesheet" href="http://yuhanw.github.io/Team_Four.0/theme/css/bootstrap.min.css" type="text/css"/>
@@ -1823,63 +1823,14 @@ Team Four.0            </a>
 </div>
 
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>We used the data downloaded from.....</p>
-</div>
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>In this notebook, you'll</p>
-<ul>
-<li>create the directory structure for your project</li>
-<li>download the raw data for your project</li>
-<li><strong>write functions and classes to transform raw data (e.g in XML, jason, etc.) into data frames</strong></li>
-<li>explain what your are doing</li>
-</ul>
-</div>
-<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="team-members-responsible-for-this-notebook">Team members responsible for this notebook:</h2>
-<p>List the team members contributing to this notebook, along with their responsabilities:</p>
-<ul>
-<li>team member 1 <strong>name</strong>: team member 1 <strong>responsabilities</strong></li>
-<li>team member 2 <strong>name</strong>: team member 2 <strong>responsabilities</strong></li>
-<li>etc.</li>
-</ul>
-<p>I advise you to work at least in pairs for each project notebook, as you did for the homework assignments. Of course, all team members may participate to each notebook.</p>
+<p><strong>Minghong Zheng</strong>: collect raw data from website, write functions and scripts to transform raw data into data frames, write explanations.</p>
+<p><strong>Yuhan Wang</strong>, <strong>Yijia Mao</strong>, <strong>Yiwen Wei</strong> : proofread codes.</p>
 </div>
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="instructions">Instructions:</h2>
-<p>In <strong>markdown cells</strong>, you'll</p>
-<ul>
-<li>list and describe the data sources for your class project
-<ul>
-<li>provide the data urls</li>
-<li>describe the file formats</li>
-<li>explain the data content of each file</li>
-</ul></li>
-</ul>
-<p><strong>Remark:</strong> If your data is not directly available through the web (for instance, you requested it from a company, or got it from Inna or Henry), place you data into your personal bdrive, and provide a link to it, that you'll use in this notebook to download it into the data folder, as explained below).</p>
-<p>In <strong>code cells</strong>, you'll</p>
-<ul>
-<li><p>create the following directories:</p>
-<pre><code>./data
-./data/raw        # to store your raw data
-./data/cleaned    # to store the cleanned data
-./data/simulated  # to store simulated data
-./visualizations  # to store your plots</code></pre></li>
-<li><p>display samples of your data files (e.g. for a csv files, use data frames and the <code>head</code> method)</p></li>
-<li><p>Write <strong>scripts</strong> into the <code>./script</code> directory using the he <strong>magic command</strong></p>
-<p>%%file ./script/file_name</p></li>
-</ul>
-<p>Your scripts should contain <strong>functions</strong> and <strong>objects</strong> allowing you to</p>
-<ul>
-<li><p>download the actual raw data in the directory <code>./data/raw</code></p></li>
-<li><p>load the downloaded the raw data files into data frames</p></li>
-</ul>
-<p>This way, the functions and objects contained in your scripts will be accessible in other notebooks through the <code>import</code> command in Python (see example below).</p>
-<p><strong>Remark 1:</strong> In the code cells, you may use Python, R, or Bash, as you find more convenient.</p>
-<p><strong>Remark 2:</strong> Try to make your notebook as readable and usable (by others) as possible.</p>
+<h3 id="Data-Resources:">Data Resources:<a class="anchor-link" href="#Data-Resources:">&#182;</a></h3>
 </div>
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Name: Resposibilities:</p>
-</div>
+
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>First, the data of State Employment and Unemployment statistics from 2004 to 2013 is downloaded from the Bureau of Labor Statistics website. Their file formats are xls.</p>
 <p>Here are the URLs of the data sources:<br />http://www.bls.gov/lau/table14full04.xlsx<br />http://www.bls.gov/lau/table14full05.xlsx<br />http://www.bls.gov/lau/table14full06.xlsx<br />http://www.bls.gov/lau/table14full07.xlsx<br />http://www.bls.gov/lau/table14full08.xlsx<br />http://www.bls.gov/lau/table14full09.xlsx<br />http://www.bls.gov/lau/table14full10.xlsx<br />http://www.bls.gov/lau/table14full11.xlsx<br />http://www.bls.gov/lau/table14full12.xlsx<br />http://www.bls.gov/lau/ptable14full2013.xlsx</p>
@@ -1887,7 +1838,7 @@ Team Four.0            </a>
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[1]:
+In&nbsp;[3]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight-ipynb"><pre class="ipynb"><span class="o">%</span><span class="k">load_ext</span> <span class="n">rmagic</span>
@@ -1896,9 +1847,26 @@ In&nbsp;[1]:
 </div>
 </div>
 
+<div class="vbox output_wrapper">
+<div class="output vbox">
+
+
+<div class="hbox output_area"><div class="prompt"></div>
+<div class="box-flex1 output_subarea output_stream output_stdout">
+<pre>
+The rmagic extension is already loaded. To reload it, use:
+  %reload_ext rmagic
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Create:</p>
+<p>Directories that we need to create:</p>
 <ul>
 <li>a directory <code>'script'</code> to run the process of data gathering</li>
 <li>a directory <code>'data1'</code> to save our <strong>data</strong><br /></li>
@@ -1911,7 +1879,7 @@ In&nbsp;[1]:
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[2]:
+In&nbsp;[4]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">bash</span>
@@ -1923,12 +1891,12 @@ In&nbsp;[2]:
 
 </div>
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Check whehter these directories are created</p>
+<p>Check whether these directories are created.</p>
 </div>
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[3]:
+In&nbsp;[5]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">bash</span>
@@ -1965,7 +1933,7 @@ data1
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[4]:
+In&nbsp;[6]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">bash</span>
@@ -1996,7 +1964,11 @@ cleaned
 
 </div>
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Here-is-an-example-how-we-download-the-data-in-2004-from-the-website-and-save-them-in-subdirectory-&quot;raw&quot;load-data-in-2004.xls-file-into-dataFrame">Here is an example how we download the data in 2004 from the website and save them in subdirectory "raw"load data in 2004.xls file into dataFrame<a class="anchor-link" href="#Here-is-an-example-how-we-download-the-data-in-2004-from-the-website-and-save-them-in-subdirectory-&quot;raw&quot;load-data-in-2004.xls-file-into-dataFrame">&#182;</a></h3>
+<h3 id="Example:">Example:<a class="anchor-link" href="#Example:">&#182;</a></h3>
+</div>
+
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Here's-how-we-download-the-data-in-2004-from-the-website;-save-them-in-subdirectory-&quot;raw&quot;;-load-data-in-2004.xls-file-into-a-data-frame">Here's how we download the data in 2004 from the website; save them in subdirectory "raw"; load data in 2004.xls file into a data frame<a class="anchor-link" href="#Here's-how-we-download-the-data-in-2004-from-the-website;-save-them-in-subdirectory-&quot;raw&quot;;-load-data-in-2004.xls-file-into-a-data-frame">&#182;</a></h4>
 </div>
 
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -2007,7 +1979,7 @@ cleaned
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[5]:
+In&nbsp;[7]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">R</span>
@@ -2029,7 +2001,7 @@ In&nbsp;[5]:
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[6]:
+In&nbsp;[8]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">bash</span>
@@ -2068,7 +2040,7 @@ In&nbsp;[6]:
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[7]:
+In&nbsp;[9]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">bash</span>
@@ -2102,7 +2074,7 @@ r-cran-gplots is already the newest version.
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[8]:
+In&nbsp;[10]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight-ipynb"><pre class="ipynb"><span class="n">ls</span> <span class="o">-</span><span class="n">l</span> <span class="o">../</span><span class="n">data1</span><span class="o">/</span><span class="n">raw</span>
@@ -2119,7 +2091,7 @@ In&nbsp;[8]:
 <div class="box-flex1 output_subarea output_stream output_stdout">
 <pre>
 total 224
--rw-rw-r-- 1 oski oski 228193 May  2 15:11 2004.xlsx
+-rw-rw-r-- 1 oski oski 228193 May  4 17:16 2004.xlsx
 
 </pre>
 </div>
@@ -2132,7 +2104,7 @@ total 224
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[9]:
+In&nbsp;[11]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">R</span>
@@ -2185,14 +2157,12 @@ The following object is masked from ‘package:utils’:
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[10]:
+In&nbsp;[12]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">R</span>
 <span class="k">print</span><span class="p">(</span><span class="n">nrow</span><span class="p">(</span><span class="n">A</span><span class="p">))</span>
 <span class="k">print</span><span class="p">(</span><span class="n">ncol</span><span class="p">(</span><span class="n">A</span><span class="p">))</span>
-
-<span class="k">print</span><span class="p">(</span><span class="n">names</span><span class="p">(</span><span class="n">A</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -2209,20 +2179,6 @@ In&nbsp;[10]:
 <pre>
 [1] 2430
 [1] 14
- [1] &quot;States...Employment.status.of.the.civilian.noninstitutional.population.by.sex..race..Hispanic.or.Latino.ethnicity..marital.status..and.detailed.age..2004.annual.averages&quot;
- [2] &quot;X&quot;                                                                                                                                                                        
- [3] &quot;X.1&quot;                                                                                                                                                                      
- [4] &quot;X.2&quot;                                                                                                                                                                      
- [5] &quot;X.3&quot;                                                                                                                                                                      
- [6] &quot;X.4&quot;                                                                                                                                                                      
- [7] &quot;X.5&quot;                                                                                                                                                                      
- [8] &quot;X.6&quot;                                                                                                                                                                      
- [9] &quot;X.7&quot;                                                                                                                                                                      
-[10] &quot;X.8&quot;                                                                                                                                                                      
-[11] &quot;X.9&quot;                                                                                                                                                                      
-[12] &quot;X.10&quot;                                                                                                                                                                     
-[13] &quot;X.11&quot;                                                                                                                                                                     
-[14] &quot;X.12&quot;                                                                                                                                                                     
 
 </pre>
 
@@ -2241,7 +2197,7 @@ In&nbsp;[10]:
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[11]:
+In&nbsp;[13]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">R</span>
@@ -2320,7 +2276,7 @@ In&nbsp;[12]:
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[13]:
+In&nbsp;[14]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">R</span>
@@ -2340,7 +2296,7 @@ In&nbsp;[13]:
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[14]:
+In&nbsp;[15]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">R</span>
@@ -2359,7 +2315,7 @@ In&nbsp;[14]:
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[15]:
+In&nbsp;[16]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">bash</span>
@@ -2389,13 +2345,13 @@ In&nbsp;[15]:
 
 </div>
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Package-the-gathering-code-into-reusable-functions">Package the gathering code into reusable functions<a class="anchor-link" href="#Package-the-gathering-code-into-reusable-functions">&#182;</a></h2>
+<h4 id="Package-the-gathering-code-into-reusable-functions">Package the gathering code into reusable functions<a class="anchor-link" href="#Package-the-gathering-code-into-reusable-functions">&#182;</a></h4>
 </div>
 
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[16]:
+In&nbsp;[17]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">file</span> <span class="o">../</span><span class="n">script</span><span class="o">/</span><span class="n">dataframe</span><span class="o">-</span><span class="n">R</span>
@@ -2446,7 +2402,7 @@ Writing ../script/dataframe-R
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[17]:
+In&nbsp;[18]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">R</span>
@@ -2499,7 +2455,7 @@ In&nbsp;[17]:
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[18]:
+In&nbsp;[19]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">R</span>
@@ -2520,7 +2476,7 @@ In&nbsp;[18]:
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[19]:
+In&nbsp;[20]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight-ipynb"><pre class="ipynb"><span class="o">%%</span><span class="k">bash</span>
@@ -2562,6 +2518,19 @@ In&nbsp;[19]:
 </pre>
 </div>
 </div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight-ipynb"><pre class="ipynb">
+</pre></div>
 
 </div>
 </div>
